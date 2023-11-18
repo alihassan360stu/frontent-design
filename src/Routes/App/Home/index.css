@@ -1,0 +1,156 @@
+.home-continer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 500px;
+    height: 700px;
+}
+
+/* home front text  style sart from here  */
+.home-heading {
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home-heading p {
+    font-size: 70px;
+}
+
+.home-heading-image1 {
+    position: absolute;
+    bottom: 15px;
+    left: -50px;
+}
+
+.home-heading-image2 {
+    position: absolute;
+    top: 0px;
+    right: -10px;
+}
+
+/* home front text  style sart end here  */
+
+/* home rating style sart from here  */
+
+.home-rating {
+    width: 70%;
+    min-height: 90px;
+    padding: 10px;
+    border-radius: 20px;
+    background: rgba(79, 79, 79, 0.12);
+    box-shadow: 20px 20px 80px 0px rgba(207, 202, 202, 0.2);
+    backdrop-filter: blur(40px);
+    border: 1px solid #FFF;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* padding: 20px; */
+}
+
+.home-rating:hover {
+    box-shadow: 20px 20px 80px 0px rgba(212, 185, 185, 0.2);
+    background:rgba(2, 1, 1, 0.12);
+    transition: background-color .7s ease-in-out;
+}
+
+.home-grid-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #FFF;
+    align-items: center;
+}
+
+.home-grid-item p {
+    font-size: 60px;
+    font-weight: 800;
+    font-family: Agrandir;
+}
+
+/*home rating style end  here  */
+
+/* Home desing banner styling start from here */
+.home-banner-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #4762E4;
+    align-items: center;
+    min-height: 70px;
+}
+
+.home-banner-item {
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home-banner-item p {
+   font-size: 28px;
+   font-weight: 700;
+   text-transform: uppercase;
+   margin-right: 10px;
+}
+
+/* Home desing banner styling end  here */
+
+/* Home company logo  styling start from here  here */
+.home-company-logo{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #242830;
+}
+.home-company-logo img{
+    cursor: pointer;
+}
+.home-company-logo:hover{
+    background-color: #474c57;
+    box-shadow: 5px 5px 5px 0px rgba(212, 185, 185, 0.2);
+    transition: background-color , box-shadow .7s ease-in-out;
+}
+
+/* Home company logo  styling end here  here */
+/* below 600 px media querry   */
+@media screen and (max-width: 600px) {
+    .home-rating {
+        width: 400px;
+    }
+
+    .home-grid-item p {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .home-heading p {
+        font-size: 40px;
+    }
+
+    .home-heading-image2 {
+        position: absolute;
+        top: 0px;
+        right: -30px;
+    }
+
+    .home-banner-item p {
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .home-banner-item img{
+        width: 30px;
+    }
+    .home-company-logo img{
+        width: 70px;
+    }
+
+}

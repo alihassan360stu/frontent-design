@@ -1,0 +1,33 @@
+.container {
+    /* position: relative; */
+    width: 100%;
+    max-width: 2616.17px;
+    min-width: 250px;
+    min-height: 650.767px;
+    background-color: #181920;
+    ;
+    /* background-image: url('../../../../public/Images/back.png');
+    background-size: 100% 100%; */
+    /* background-attachment: fixed; */
+}
+
+.r1 {
+    width: 217.602px;
+    height: 101.125px;
+    transform: rotate(15deg);
+    flex-shrink: 0;
+    background-color: #7A62F9;
+    filter: blur(59.16184616088867px);
+    /* position: absolute; */
+    left: 20px;
+    top: 20px;
+}
+
+.s1 {
+    width: 731.304px;
+    height: 663.749px;
+    transform: rotate(-60deg);
+    flex-shrink: 0;
+    stroke-width: 0.973px;
+    stroke: rgba(243, 240, 255, 0.00);
+}

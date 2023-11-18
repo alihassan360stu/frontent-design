@@ -1,0 +1,33 @@
+.portfolio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.portfolio-container p {
+    font-size: 48px;
+    font-weight: 800;
+    text-transform: capitalize;
+    color: #FFF;
+    padding: 0px 10px;
+}
+
+.portfolio-container h5 {
+    color: #4762E4;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.portfolio-container h5:hover {
+    color: #8193eb;
+}
+
+.portfolio-btn {
+    color: '#FFF';
+    border-radius: 5px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+}

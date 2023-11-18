@@ -1,0 +1,38 @@
+.grid-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.logo {
+    font-size: 36px;
+    font-family: Agrandir;
+    color: #FFF;
+    font-weight: 800;
+}
+
+.normal-text {
+    font-size: 16px;
+    font-family: Plus Jakarta Sans;
+    color: #FFF;
+    font-weight: 600;
+}
+
+.iconContainer {
+    display: flex;
+    padding: 5px;
+    width: 130px;
+    justify-content: space-between;
+}
+
+.info-icon{
+     width: 24px;
+     height: 24px;
+     cursor: pointer;
+     background-color: black;
+     color: black;
+}
+.header-logo{
+    font-size: 34px;
+}
