@@ -26,13 +26,15 @@
     justify-content: space-between;
 }
 
-.info-icon{
-     width: 24px;
-     height: 24px;
-     cursor: pointer;
-     background-color: black;
-     color: black;
+.info-icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    background-color: black;
+    color: black;
 }
-.header-logo{
+
+.header-logo {
     font-size: 34px;
+    cursor: pointer;
 }

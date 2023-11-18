@@ -20,7 +20,6 @@
 }
 
 .link:hover {
-    /* text-shadow: 1px 1px 1px white; */
     color: #ffffffbe;
     transform: 1s;
 }

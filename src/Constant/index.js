@@ -5,4 +5,4 @@ export const navItems = [
     { label: 'Careers', path: 'Careers' }];
 
 export const portfolio_images = ['image1', 'image2', 'image3', 'image4', 'image5', 'image6', 'image7', 'image8']
-export const company_logo = ['logo2' , 'logo3' ,'logo3' , 'logo5' , 'logo1']
+export const company_logo = ['logo2', 'logo3', 'logo3', 'logo4', 'logo1']

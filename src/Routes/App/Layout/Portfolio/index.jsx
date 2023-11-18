@@ -1,5 +1,5 @@
 
-import { portfolio_images} from '../../../../Constant/index'
+import { portfolio_images } from '../../../../Constant/index'
 import * as React from 'react';
 import ImageList from '@mui/material/ImageList';
 import { Button } from '@mui/material'
@@ -13,7 +13,7 @@ export const Portfolio = () => {
 
         <ImageList sx={{ width: '100%' }} cols={4} >
             {portfolio_images.map((item) => (
-                <ImageListItem key={item}>
+                <ImageListItem className='portfolio-container-transition' key={item}>
                     <img
                         srcSet={`Images/Portfolio/${item}.png`}
                         src={`Images/Portfolio/${item}.png`}
@@ -23,9 +23,9 @@ export const Portfolio = () => {
                 </ImageListItem>
             ))}
         </ImageList>
-       <div style={{width:'25%'}}>
-       <Button className="portfolio-btn" fullWidth size='large' sx={{ backgroundColor: '#7A62F9' }} variant="contained">More</Button>
-       </div>
+        <div style={{ width: '25%' }}>
+            <Button className="portfolio-btn" fullWidth size='large' sx={{ backgroundColor: '#7A62F9' }} variant="contained">More</Button>
+        </div>
     </div>
 
 };

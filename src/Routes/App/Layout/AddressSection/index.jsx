@@ -54,7 +54,7 @@ const AddressSection = () => {
             <FormControl variant="standard">
                 <CustomizeInput defaultValue="enter email address" id="bootstrap-input" />
             </FormControl>
-            <Button className="address-btn" sx={{ backgroundColor: '#7A62F9' }} variant="contained">Get Started</Button>
+            <Button className="address-btn" sx={{ backgroundColor: '#7A62F9' }} variant="contained">Ready</Button>
         </div>
         <div>
         </div>

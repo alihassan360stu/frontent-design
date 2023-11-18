@@ -20,7 +20,7 @@ function MainContainer({ RoutesPages }) {
             <Header changeHeaderToSideBar={changeHeaderToSideBar} />
             <SideMenu changeHeaderToSideBar={changeHeaderToSideBar} mobileOpen={mobileOpen} />
             {/* about, blogs etc pages will render accordinly by rounting  */}
-            {RoutesPages} 
+            {RoutesPages}
             <Portfolio />
             <FAQ />
             <AddressSection />

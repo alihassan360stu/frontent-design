@@ -8,7 +8,7 @@ const similer_css = {
     border: '1px solid white',
     cursor: 'pointer',
     '&:hover': {
-        backgroundColor: '#45a049',
+       boxShadow:'2px 2px 2px white'
     }
 }
 
